@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#100d0c">
+  <title>محمد & ريهام | حكاية يوم جميل</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="البداية">M<span>♡</span>R</a>
+    <nav>
+      <a href="#story">الحكاية</a>
+      <a href="#gallery">الصور</a>
+      <a href="#time">الذكرى</a>
+    </nav>
+    <button id="musicToggle" class="music-toggle" type="button" aria-label="تشغيل الموسيقى">♫ <span>تشغيل الموسيقى</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <p class="eyebrow">A DAY TO REMEMBER · 02.10.2026</p>
+      <div class="ring-mark" aria-hidden="true"><span>♡</span></div>
+      <h1>محمد <span>&</span> ريهام</h1>
+      <p class="hero-subtitle">بداية حكاية جميلة، وذكرى تستاهل تفضل معانا</p>
+      <button class="open-envelope" id="openEnvelope" type="button">
+        <span class="envelope-icon" aria-hidden="true"><span class="envelope-heart">♡</span></span>
+        <span class="open-label">افتحوا الظرف</span>
+        <small>فيه ذكرى صغيرة مستنياكم</small>
+      </button>
+      <div class="scroll-note">انزلوا واكتشفوا الحكاية <span>↓</span></div>
+    </section>
+
+    <section class="letter-section reveal" id="letter">
+      <div class="section-kicker">A LITTLE NOTE</div>
+      <h2>رسالة صغيرة ليوم كبير</h2>
+      <div class="letter-card">
+        <div class="letter-ornament">❦</div>
+        <p>في أيام بتعدّي عادي، وفي أيام بتفضل ذكرى حلوة كل ما نفتكرها نبتسم.</p>
+        <p>يوم <strong>٢ أكتوبر ٢٠٢٦</strong> كان بداية فصل جديد في حكاية محمد وريهام؛ يوم اتجمعت فيه العيلة والفرحة، واتاخدت صور هتفضل تحكي عن اللحظة دي سنين طويلة.</p>
+        <p>ربنا يبارك لهم، ويكتب لهم الخير والتوفيق، ويجعل كل خطوة جاية أجمل من اللي قبلها ❤️</p>
+        <div class="letter-sign">محمد & ريهام <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="gallery-section reveal" id="gallery">
+      <div class="section-kicker">THE MOMENTS</div>
+      <h2>لحظات من يومهم</h2>
+      <p class="section-intro">كل صورة حكاية صغيرة من يوم جميل.</p>
+      <div class="gallery-grid" id="galleryGrid">
+        <button class="photo-card photo-tall" data-photo="images/photo1.jpg" aria-label="عرض الصورة الأولى"><img src="images/photo1.jpg" alt="صورة الخطوبة ١" loading="lazy"><span>لحظة من اليوم ♡</span></button>
+        <button class="photo-card" data-photo="images/photo2.jpg" aria-label="عرض الصورة الثانية"><img src="images/photo2.jpg" alt="صورة الخطوبة ٢" loading="lazy"><span>ذكرى جميلة ♡</span></button>
+        <button class="photo-card" data-photo="images/photo3.jpg" aria-label="عرض الصورة الثالثة"><img src="images/photo3.jpg" alt="صورة الخطوبة ٣" loading="lazy"><span>تفاصيل اليوم ♡</span></button>
+        <button class="photo-card" data-photo="images/photo4.jpg" aria-label="عرض الصورة الرابعة"><img src="images/photo4.jpg" alt="صورة الخطوبة ٤" loading="lazy"><span>فرحة العيلة ♡</span></button>
+        <button class="photo-card" data-photo="images/photo5.jpg" aria-label="عرض الصورة الخامسة"><img src="images/photo5.jpg" alt="صورة الخطوبة ٥" loading="lazy"><span>أحلى ذكرى ♡</span></button>
+        <button class="photo-card" data-photo="images/photo6.jpg" aria-label="عرض الصورة السادسة"><img src="images/photo6.jpg" alt="صورة الخطوبة ٦" loading="lazy"><span>وذكريات كتير جاية ♡</span></button>
+      </div>
+      <p class="gallery-tip">هنستبدل الصور دي بصور الخطوبة الحقيقية لما تضيفوها في مجلد images.</p>
+    </section>
+
+    <section class="time-section reveal" id="time">
+      <div class="section-kicker">SINCE 02 OCTOBER 2026</div>
+      <h2>الذكرى بدأت من هنا</h2>
+      <p class="section-intro">عدّى على يوم الخطوبة</p>
+      <div class="timer" aria-label="المدة منذ الخطوبة">
+        <div><strong id="days">00</strong><span>يوم</span></div>
+        <i>:</i>
+        <div><strong id="hours">00</strong><span>ساعة</span></div>
+        <i>:</i>
+        <div><strong id="minutes">00</strong><span>دقيقة</span></div>
+        <i>:</i>
+        <div><strong id="seconds">00</strong><span>ثانية</span></div>
+      </div>
+      <p class="time-note">والأيام الحلوة لسه كتير بإذن الله ♡</p>
+    </section>
+
+    <section class="closing-section reveal">
+      <div class="closing-flower">✦</div>
+      <h2>بداية جميلة.. وذكريات أجمل</h2>
+      <p>ألف مبروك لمحمد وريهام، وربنا يكتب لهم كل خير.</p>
+      <div class="closing-names">M <span>♡</span> R</div>
+      <small>صُنعت بمحبة لتوثيق ذكرى لا تُنسى</small>
+    </section>
+  </main>
+
+  <footer><span>محمد & ريهام</span><span>02 · 10 · 2026</span></footer>
+
+  <audio id="backgroundMusic" src="audio/music.mp3" preload="none" loop></audio>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="عرض الصورة" hidden>
+    <button id="closeLightbox" class="lightbox-close" type="button" aria-label="إغلاق">×</button>
+    <button id="prevPhoto" class="lightbox-arrow" type="button" aria-label="الصورة السابقة">‹</button>
+    <img id="lightboxImage" src="" alt="صورة من الخطوبة">
+    <button id="nextPhoto" class="lightbox-arrow" type="button" aria-label="الصورة التالية">›</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
